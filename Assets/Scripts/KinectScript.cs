@@ -9,8 +9,10 @@ namespace com.rfilkov.kinect
         [Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
         public int playerIndex = 0;
 
-        public GameObject katana1;
-        public GameObject katana2;
+        public GameObject vaisseau1;
+        public GameObject vaisseau2;
+
+        public float smoothSpeed = 5f; // Vitesse d'interpolation (plus la valeur est grande plus le vaisseau se déplacera rapidement)
 
         void Update()
         {
@@ -32,10 +34,15 @@ namespace com.rfilkov.kinect
                     {
                         Vector3 jointPos = kinectManager.GetJointPosition(userId, handRight); // Position de la main droite
 
-                        // Active la collision et met à jour la position de la katana du joueur 1
-                        katana1.GetComponent<ScriptKatana>().collision = true;
-                        katana1.transform.position = new Vector3(jointPos.x * 15, jointPos.y * 5);
-                        katana1.transform.position -= new Vector3(0, 6.5f, 0); // Ajustement de la position
+                        // Active la collision et met à jour la position du vaisseau du joueur 1
+                        vaisseau1.GetComponent<ScriptKatana>().collision = true;
+                        //vaisseau1.transform.position = new Vector3(jointPos.x * 15, jointPos.y * 5);
+                        //vaisseau1.transform.position -= new Vector3(0, 6.5f, 0); // Ajustement de la position
+
+                        //avec un lerp
+                        vaisseau1.transform.position = Vector3.Lerp(vaisseau1.transform.position, new Vector3(jointPos.x * 15, jointPos.y * 5 - 6.5f, 0), smoothSpeed * Time.deltaTime);
+
+                    
                     }
                 }
 
@@ -49,18 +56,21 @@ namespace com.rfilkov.kinect
                     {
                         Vector3 jointPos = kinectManager.GetJointPosition(userId, handRight); // Position de la main droite
 
-                        // Active la collision et met à jour la position de la katana du joueur 2
-                        katana2.GetComponent<ScriptKatana>().collision = true;
-                        katana2.transform.position = new Vector3(jointPos.x * 15, jointPos.y * 5);
-                        katana2.transform.position -= new Vector3(0, 6.5f, 0); // Ajustement de la position
+                        // Active la collision et met à jour la position du vaisseau du joueur 2
+                        vaisseau2.GetComponent<ScriptKatana>().collision = true;
+                        //        vaisseau2.transform.position = new Vector3(jointPos.x * 15, jointPos.y * 5);
+                        //        vaisseau2.transform.position -= new Vector3(0, 6.5f, 0); // Ajustement de la position
+
+                        //avec un lerp
+                        vaisseau2.transform.position = Vector3.Lerp(vaisseau2.transform.position, new Vector3(jointPos.x * 15, jointPos.y * 5 - 6.5f, 0), smoothSpeed * Time.deltaTime);
                     }
                 }
             }
-            else
+                    else
             {
-                // Si Kinect n'est pas initialisé ou actif, désactiver les collisions des katanas
-                katana1.GetComponent<ScriptKatana>().collision = false;
-                katana2.GetComponent<ScriptKatana>().collision = false;
+                // Si Kinect n'est pas initialisé ou actif, désactiver les collisions des vaisseau
+                vaisseau1.GetComponent<ScriptKatana>().collision = false;
+                vaisseau2.GetComponent<ScriptKatana>().collision = false;
             }
 
         }
