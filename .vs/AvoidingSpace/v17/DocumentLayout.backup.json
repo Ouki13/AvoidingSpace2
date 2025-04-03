@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "Q:\\Unity\\AvoidingSpace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\scripts\\scriptkatana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptkatana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\azurekinectexamples\\kinectscripts\\kinectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\azurekinectexamples\\kinectscripts\\kinectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace\\assets\\scripts\\kinectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kinectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace\\assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\spawnzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace\\assets\\spawnzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\spawnzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,11 +38,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScriptKatana.cs",
+              "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\Scripts\\ScriptKatana.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptKatana.cs",
+              "ToolTip": "Q:\\Unity\\AvoidingSpace\\Assets\\Scripts\\ScriptKatana.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptKatana.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:31:51.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "KinectManager.cs",
+              "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\AzureKinectExamples\\KinectScripts\\KinectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\AzureKinectExamples\\KinectScripts\\KinectManager.cs",
+              "ToolTip": "Q:\\Unity\\AvoidingSpace\\Assets\\AzureKinectExamples\\KinectScripts\\KinectManager.cs",
+              "RelativeToolTip": "Assets\\AzureKinectExamples\\KinectScripts\\KinectManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:08:23.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KinectScript.cs",
+              "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\Scripts\\KinectScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KinectScript.cs",
+              "ToolTip": "Q:\\Unity\\AvoidingSpace\\Assets\\Scripts\\KinectScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KinectScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:08:15.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SpawnZone.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\SpawnZone.cs",
               "RelativeDocumentMoniker": "Assets\\SpawnZone.cs",
@@ -42,12 +101,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerCtrl.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\PlayerCtrl.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerCtrl.cs",
@@ -60,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SpawnOnPositions.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\SpawnOnPositions.cs",
               "RelativeDocumentMoniker": "Assets\\SpawnOnPositions.cs",
@@ -73,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Autoguider.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\Autoguider.cs",
               "RelativeDocumentMoniker": "Assets\\Autoguider.cs",

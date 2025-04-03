@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "Q:\\Unity\\AvoidingSpace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\azurekinectexamples\\kinectscripts\\kinectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace\\assets\\azurekinectexamples\\kinectscripts\\kinectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\azurekinectexamples\\kinectscripts\\kinectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\scripts\\kinectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\scripts\\scriptkatana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptkatana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace\\assets\\scripts\\kinectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kinectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace\\assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace\\assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1824E92C-3213-97B2-8A1B-63243DE723D1}|Assembly-CSharp.csproj|solutionrelative:assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,8 +38,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScriptKatana.cs",
+              "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\Scripts\\ScriptKatana.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptKatana.cs",
+              "ToolTip": "Q:\\Unity\\AvoidingSpace\\Assets\\Scripts\\ScriptKatana.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptKatana.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:31:51.274Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,14 +65,14 @@
               "RelativeDocumentMoniker": "Assets\\AzureKinectExamples\\KinectScripts\\KinectManager.cs",
               "ToolTip": "Q:\\Unity\\AvoidingSpace\\Assets\\AzureKinectExamples\\KinectScripts\\KinectManager.cs",
               "RelativeToolTip": "Assets\\AzureKinectExamples\\KinectScripts\\KinectManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T15:08:23.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "KinectScript.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\Scripts\\KinectScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KinectScript.cs",
@@ -59,16 +80,11 @@
               "RelativeToolTip": "Assets\\Scripts\\KinectScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:08:15.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-04-03T15:08:15.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SpawnZone.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\SpawnZone.cs",
               "RelativeDocumentMoniker": "Assets\\SpawnZone.cs",
@@ -76,12 +92,11 @@
               "RelativeToolTip": "Assets\\SpawnZone.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:38:51.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T14:38:51.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerCtrl.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\PlayerCtrl.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerCtrl.cs",
@@ -89,12 +104,11 @@
               "RelativeToolTip": "Assets\\PlayerCtrl.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAxwCkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T15:10:46.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T15:10:46.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SpawnOnPositions.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\SpawnOnPositions.cs",
               "RelativeDocumentMoniker": "Assets\\SpawnOnPositions.cs",
@@ -102,12 +116,11 @@
               "RelativeToolTip": "Assets\\SpawnOnPositions.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T14:40:28.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T14:40:28.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Autoguider.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace\\Assets\\Autoguider.cs",
               "RelativeDocumentMoniker": "Assets\\Autoguider.cs",
@@ -115,8 +128,7 @@
               "RelativeToolTip": "Assets\\Autoguider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T14:31:52.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T14:31:52.958Z"
             }
           ]
         }
