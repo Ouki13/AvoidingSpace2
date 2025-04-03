@@ -70,9 +70,9 @@ public class ScriptGestionJeu : MonoBehaviour {
 
         //changer les textes pour affichers nos variables de fruits restants et de pointage
         //GameObject.Find("txtNbLancersRestants").GetComponent<Text>().text = "Nb lancers restants : " + NbFruitsRestants;
-        int scoreJ1 = GameObject.Find("KatanaJoueur1").GetComponent<ScriptKatana>().pointage;
-        int scoreJ2 = GameObject.Find("KatanaJoueur2").GetComponent<ScriptKatana>().pointage;
-        GameObject.Find("txtPointage").GetComponent<Text>().text = "Pointage joueur 1 : " + scoreJ1 + "\r\n" + "Pointage joueur 2 : " + scoreJ2;
+        //int scoreJ1 = GameObject.Find("KatanaJoueur1").GetComponent<ScriptKatana>().pointage;
+        //int scoreJ2 = GameObject.Find("KatanaJoueur2").GetComponent<ScriptKatana>().pointage;
+        //GameObject.Find("txtPointage").GetComponent<Text>().text = "Pointage joueur 1 : " + scoreJ1 + "\r\n" + "Pointage joueur 2 : " + scoreJ2;
 
         //fin de partie?
         /*if(NbFruitsRestants == 0 && timer >= TEMPS_ENTRE_LANCERS)//ne reste plus de fruits à lancer ET lancer depuis x temps?
