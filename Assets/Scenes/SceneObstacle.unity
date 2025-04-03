@@ -181,7 +181,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 77094ede5e6ad554f86ab6970f212fb9, type: 2}
+  m_Sprite: {fileID: -8942961760497769777, guid: 2cb156f198f51474c939a5fe54414dda, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -520,7 +520,7 @@ MonoBehaviour:
   - {fileID: 1200692688}
   - {fileID: 2119943384}
   - {fileID: 1219015226}
-  ObstacleSpeed: 2
+  ObstacleSpeed: 5
   ObstacleDuration: 2
   ObstacleIsPrecis: 1
   ObstacleFollowDuration: 10
