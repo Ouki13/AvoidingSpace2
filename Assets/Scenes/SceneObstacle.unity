@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00cf53d1ffa1a74da7ffe214aeea510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObstaclePrefab: {fileID: 3405453395452102444, guid: a1587275a9b8ae245a7628bad0ecd930, type: 3}
+  ObstaclePrefab: []
   zoneSize: {x: 12.9, y: 2}
 --- !u!4 &195264684
 Transform:
@@ -522,8 +522,8 @@ MonoBehaviour:
   - {fileID: 1219015226}
   ObstacleSpeed: 2
   ObstacleDuration: 2
-  ObstacleIsPrecis: 0
-  ObstacleFollowDuration: 0
+  ObstacleIsPrecis: 1
+  ObstacleFollowDuration: 10
   ObstacleVelocity: {x: 0, y: 0}
 --- !u!4 &727414034
 Transform:
@@ -863,8 +863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerIndex: 0
-  katana1: {fileID: 0}
-  katana2: {fileID: 0}
+  vaisseau1: {fileID: 0}
+  vaisseau2: {fileID: 0}
+  smoothSpeed: 5
 --- !u!4 &1132084308
 Transform:
   m_ObjectHideFlags: 0

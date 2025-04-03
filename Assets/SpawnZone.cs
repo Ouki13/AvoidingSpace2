@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpawnZone : MonoBehaviour
 {
-    public GameObject ObstaclePrefab;
+    public GameObject[] ObstaclePrefab;
 
     public Vector2 zoneSize;
 
@@ -29,7 +29,7 @@ public class SpawnZone : MonoBehaviour
 
     void SpawnObstacle()
     {
-        GameObject instantiated = Instantiate(ObstaclePrefab);
+        GameObject instantiated = Instantiate(ObstaclePrefab[Random.Range(0, ObstaclePrefab.Length)]);
 
         instantiated.transform.position = new Vector2(
             Random.Range(transform.position.x - zoneSize.x / 2, transform.position.x + zoneSize.x / 2),
