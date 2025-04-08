@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "Q:\\Unity\\AvoidingSpace2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace2\\assets\\autoguider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\autoguider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace2\\assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace2\\assets\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace2\\assets\\spawnzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\spawnzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|Q:\\Unity\\AvoidingSpace2\\assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\spawnonpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|q:\\unity\\avoidingspace2\\assets\\autoguider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0598F4-BBD1-F128-C4D6-A008836ECCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\autoguider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,25 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerCtrl.cs",
+              "DocumentMoniker": "Q:\\Unity\\AvoidingSpace2\\Assets\\PlayerCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerCtrl.cs",
+              "ToolTip": "Q:\\Unity\\AvoidingSpace2\\Assets\\PlayerCtrl.cs",
+              "RelativeToolTip": "Assets\\PlayerCtrl.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:39:26.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Autoguider.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace2\\Assets\\Autoguider.cs",
               "RelativeDocumentMoniker": "Assets\\Autoguider.cs",
               "ToolTip": "Q:\\Unity\\AvoidingSpace2\\Assets\\Autoguider.cs",
               "RelativeToolTip": "Assets\\Autoguider.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T14:27:15.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SpawnOnPositions.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace2\\Assets\\SpawnOnPositions.cs",
               "RelativeDocumentMoniker": "Assets\\SpawnOnPositions.cs",
               "ToolTip": "Q:\\Unity\\AvoidingSpace2\\Assets\\SpawnOnPositions.cs",
               "RelativeToolTip": "Assets\\SpawnOnPositions.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T14:25:41.517Z",
               "EditorCaption": ""
@@ -56,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SpawnZone.cs",
               "DocumentMoniker": "Q:\\Unity\\AvoidingSpace2\\Assets\\SpawnZone.cs",
               "RelativeDocumentMoniker": "Assets\\SpawnZone.cs",
               "ToolTip": "Q:\\Unity\\AvoidingSpace2\\Assets\\SpawnZone.cs",
               "RelativeToolTip": "Assets\\SpawnZone.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T14:21:16.183Z",
               "EditorCaption": ""

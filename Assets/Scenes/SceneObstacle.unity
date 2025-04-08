@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 66785502}
   - component: {fileID: 66785501}
   - component: {fileID: 66785503}
+  - component: {fileID: 66785504}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -219,6 +220,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f42ec6601d848cb40932ec089fa27f48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &66785504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66785500}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.38, y: 0.57}
+    newSize: {x: 0.32, y: 0.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.38, y: 0.57}
+  m_EdgeRadius: 0
 --- !u!1 &195264682
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,8 +295,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00cf53d1ffa1a74da7ffe214aeea510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObstaclePrefab: []
+  ObstaclePrefab:
+  - {fileID: 3405453395452102444, guid: 5e8ea116bcc31c44abea5dd1da4c683d, type: 3}
+  - {fileID: 1832826365350187464, guid: f3ddcc5c83c2d9640941299caed7406e, type: 3}
   zoneSize: {x: 12.9, y: 2}
+  ObstacleSpeed: 0
+  ObstacleDuration: 2
+  ObstacleIsPrecis: 0
+  ObstacleFollowDuration: 0
+  ObstacleVelocity: {x: 0, y: 0}
 --- !u!4 &195264684
 Transform:
   m_ObjectHideFlags: 0
@@ -813,8 +867,8 @@ Transform:
   m_GameObject: {fileID: 1081845805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3535, y: -3.795, z: 0}
-  m_LocalScale: {x: 5.454676, y: 0.9299, z: 1}
+  m_LocalPosition: {x: 0.337, y: -3.795, z: 0}
+  m_LocalScale: {x: 14.364158, y: 0.9299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

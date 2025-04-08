@@ -8,6 +8,12 @@ public class SpawnZone : MonoBehaviour
 
     private float spawnInterval = 5f; // Intervalle de 5 secondes
     private float nextSpawnTime = 0f;
+
+    public float ObstacleSpeed;
+    public float ObstacleDuration = 2f; // Durée (en secondes) pour atteindre la cible.
+    public bool ObstacleIsPrecis; //followDuration
+    public float ObstacleFollowDuration;
+    public Vector2 ObstacleVelocity = Vector2.zero;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,18 +36,34 @@ public class SpawnZone : MonoBehaviour
     void SpawnObstacle()
     {
 
-        //GameObject prefabUsed = ObstaclePrefab[Random.Range(0, ObstaclePrefab.Length)];
-        //GameObject instantiated = Instantiate(prefabUsed);
-        //// Vérification
-        //if (prefabUsed == ObstaclePrefab[0])
-        //{
-        //    Debug.Log("Prefab 0 utilisé");
-        //}
-        //else if (prefabUsed == ObstaclePrefab[1])
-        //{
-        //    Debug.Log("Prefab 1 utilisé");
-        //}
-        GameObject instantiated = Instantiate(ObstaclePrefab[Random.Range(0, ObstaclePrefab.Length)]);
+        GameObject prefabUsed = ObstaclePrefab[Random.Range(0, ObstaclePrefab.Length)];
+        GameObject instantiated = Instantiate(prefabUsed);
+        // Vérification
+        if (prefabUsed == ObstaclePrefab[0])
+        {
+            Debug.Log("Prefab 0 utilisé");
+        }
+        else if (prefabUsed == ObstaclePrefab[1])
+        {
+            instantiated.SetActive(false); // Désactiver temporairement l'objet
+
+            //Modifier les variables avant qu'il apparaisse
+        Autoguider obstacleScript = instantiated.GetComponent<Autoguider>();
+
+            if (obstacleScript != null)
+            {
+                //obstacleScript.speed = Random.Range(1f, 5f);
+                //obstacleScript.size = Random.Range(1, 10);
+                obstacleScript.speed = ObstacleSpeed;
+                obstacleScript.duration = ObstacleDuration;
+                obstacleScript.velocity = ObstacleVelocity;
+                obstacleScript.isPrecis = ObstacleIsPrecis;
+                obstacleScript.followDuration = ObstacleFollowDuration;
+            }
+
+            instantiated.SetActive(true); // Afficher l'objet sur la scène
+    }
+    //GameObject instantiated = Instantiate(ObstaclePrefab[Random.Range(0, ObstaclePrefab.Length)]);
 
         instantiated.transform.position = new Vector2(
             Random.Range(transform.position.x - zoneSize.x / 2, transform.position.x + zoneSize.x / 2),
